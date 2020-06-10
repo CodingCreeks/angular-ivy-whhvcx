@@ -1,4 +1,17 @@
 <hello name="{{ name }}"></hello>
 <p>
-  Start editing to see some magic happen :)
+	Start editing to see some magic happen :)
 </p>
+
+<h1>1. Remove duplicates from an array of numbers/strings</h1>
+<p>{{ uniqueValues | json }}</p>
+
+<h1>2. A simple search (case-sensitive)</h1>
+<p>{{ res1 | json }}</p>
+
+<h1>3. A simple search (case-insensitive)</h1>
+<p>{{ res2 | json }}</p>
+
+<h1>4. Check if any of the users have admin rights </h1>
+<p>The some() method tests whether at least one element in the array passes the test implemented by the provided function.</p>
+<p> HasAdmin: {{hasAdmin | json}} </p>
